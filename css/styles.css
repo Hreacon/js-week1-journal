@@ -1,0 +1,32 @@
+.hiddenpost {
+  display: none;
+}
+
+label {
+  width: 20%;
+}
+input {
+  width: 79%;
+}
+textarea {
+  width:79%;
+}
+input[type=submit] {
+  width:99%;
+}
+label, input, textarea {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+p {
+  white-space: pre-wrap;
+}
+.header {
+  font-size: .7em;
+}
+.header span:nth-child(2) {
+  float:right;
+}
+.post {
+  border: 10px solid blue;
+}
